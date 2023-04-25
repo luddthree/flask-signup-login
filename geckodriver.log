@@ -1,0 +1,16 @@
+1675149448644	geckodriver	INFO	Listening on 127.0.0.1:52238
+1675255723218	geckodriver	INFO	Listening on 127.0.0.1:60126
+1675255726286	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60127" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LUDVAN~1.LAB\\AppData\\Local\\Temp\\rust_mozprofileXv4Zje"
+1675255726570	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675255726575	Marionette	INFO	Listening on port 60143
+Read port: 60143
+WebDriver BiDi listening on ws://127.0.0.1:60127
+1675255726722	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\LUDVAN~1.LAB\\AppData\\Local\\Temp\\rust_mozprofileXv4Zje\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60127/devtools/browser/1e43f573-e399-4267-b37d-76e34720967e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nordnet.no."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nordnet.no."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1675334703435	geckodriver	INFO	Listening on 127.0.0.1:56744
+1675334706496	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56745" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LUDVAN~1.LAB\\AppData\\Local\\Temp\\rust_mozprofileapjED0"

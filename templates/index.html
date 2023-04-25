@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask application</title>
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+<body>
+
+<form action="{{url_for('login')}}" method="POST">
+    <h1>Log Inn</h1>
+    <input type="text" name="name" class="form__input" placeholder="Username"><br>
+    <input type="password" name="pin" class="form__input" placeholder="Password">
+    <div class="daddy">
+    <button class="button-64" class="daddy" type="submit" value="login"><span class="text">Log in</span></button>
+
+    </div>
+</form>
+    <br><br>
+
+
+
+
+
+
+
+<div class="daddy">    
+    <br><br>
+    <button class="button-64"><a href="/enternew" class="button-64"><span class="text">Sign Up</span></a></button>
+    <br>
+    <button class="button-64"><a href="/list" class="button-64"><span class="text">All users</span></a></button>
+</div>
+</body>
+</html>
